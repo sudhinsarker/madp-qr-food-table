@@ -1,7 +1,7 @@
 FROM node:24-alpine AS build
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci
+RUN if [ -f package-lock.json ]; then npm ci; else npm install; fi
 COPY . .
 ARG VITE_BLOCKS_PROJECT_KEY
 ENV VITE_BLOCKS_PROJECT_KEY=$VITE_BLOCKS_PROJECT_KEY
