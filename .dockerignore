@@ -1,0 +1,5 @@
+.git
+.madp
+node_modules
+dist
+**/.env*

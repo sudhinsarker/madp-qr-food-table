@@ -1,1 +1,3 @@
-# madp-qr-food-table
+# RestroQR
+
+QR Code Food Ordering Web Application.

@@ -1,0 +1,24 @@
+{
+  "name": "restroqr",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "7.18.4",
+    "lucide-react": "1.48.0",
+    "@seliseblocks/client": "0.2.0"
+  },
+  "devDependencies": {
+    "vite": "8.3.1",
+    "@vitejs/plugin-react": "6.1.1",
+    "tailwindcss": "3.4.19",
+    "postcss": "8.5.28",
+    "autoprefixer": "10.6.1"
+  }
+}
