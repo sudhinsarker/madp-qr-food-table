@@ -1,0 +1,26 @@
+[
+  {
+    "id": "t04",
+    "name": "Table 04",
+    "token": "olive-04-m8q2x6p9",
+    "seats": 2
+  },
+  {
+    "id": "t07",
+    "name": "Table 07",
+    "token": "olive-07-b7n4v3k8",
+    "seats": 4
+  },
+  {
+    "id": "t09",
+    "name": "Table 09",
+    "token": "olive-09-h5r9w2c6",
+    "seats": 4
+  },
+  {
+    "id": "t12",
+    "name": "Table 12",
+    "token": "olive-12-f6j3s8a4",
+    "seats": 4
+  }
+]

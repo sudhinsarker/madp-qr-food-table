@@ -1,0 +1,6 @@
+import { Link } from 'react-router-dom';
+import CustomerLayout from '../components/CustomerLayout';
+import { useGuest } from '../lib/guest';
+import { amount, reference } from '../lib/facts';
+import { total } from '../lib/types';
+export default function PayStaffPage() { const { table,order,base } = useGuest();return <CustomerLayout title="Pay with our team">{order?<><span className={'badge '+(order.paid?'':'pending')}>{order.paid?'Payment complete':'Pay staff · Not paid yet'}</span><h2 className="payment-amount">{amount(total(order.lines))} {order.paid?'paid':'to pay'}</h2><p className="muted">{table?.name} · {reference(order.id)}</p><div className="notice"><strong>{order.paid?'You’re all set':'Speak to a member of staff'}</strong><p>{order.paid?'Your payment has been confirmed. Thank you for joining us.':'Let them know you’re paying for '+table?.name+'. Your order stays unpaid until they confirm payment.'}</p></div><Link className="primary full" to={base+'/order'}>Back to table order</Link>{!order.paid&&<Link className="secondary full" to={base+'/phone'}>Pay on my phone instead</Link>}</>:<div className="empty"><h2>No order to pay</h2><Link className="secondary full" to={base+'/menu'}>Browse menu</Link></div>}</CustomerLayout>; }

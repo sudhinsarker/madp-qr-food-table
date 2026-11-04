@@ -1,0 +1,56 @@
+[
+  {
+    "id": "chicken",
+    "name": "Roast chicken bowl",
+    "description": "Charred greens, lemon rice",
+    "category": "Mains",
+    "price": 18,
+    "available": true,
+    "note": "House favorite"
+  },
+  {
+    "id": "grain",
+    "name": "Garden grain bowl",
+    "description": "Roasted squash, grains and tahini",
+    "category": "Mains",
+    "price": 16,
+    "available": true,
+    "note": "Plant based"
+  },
+  {
+    "id": "fries",
+    "name": "Herb fries",
+    "description": "Rosemary, sea salt",
+    "category": "Sides",
+    "price": 7,
+    "available": true,
+    "note": "Made for sharing"
+  },
+  {
+    "id": "greens",
+    "name": "Seasonal greens",
+    "description": "Tender leaves, citrus dressing",
+    "category": "Sides",
+    "price": 8,
+    "available": true,
+    "note": "Plant based"
+  },
+  {
+    "id": "lemon",
+    "name": "Lemon soda",
+    "description": "Fresh lemon, sparkling water",
+    "category": "Drinks",
+    "price": 6,
+    "available": true,
+    "note": ""
+  },
+  {
+    "id": "tea",
+    "name": "Peach iced tea",
+    "description": "Black tea, ripe peach, fresh mint",
+    "category": "Drinks",
+    "price": 5,
+    "available": true,
+    "note": "House brewed"
+  }
+]

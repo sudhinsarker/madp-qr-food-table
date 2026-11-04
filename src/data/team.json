@@ -1,0 +1,20 @@
+[
+  {
+    "id": "maya",
+    "name": "Maya Rahman",
+    "role": "manager",
+    "accessCode": "1212"
+  },
+  {
+    "id": "elliot",
+    "name": "Elliot Brooks",
+    "role": "staff",
+    "accessCode": "2468"
+  },
+  {
+    "id": "nora",
+    "name": "Nora Ellis",
+    "role": "owner",
+    "accessCode": "8080"
+  }
+]
