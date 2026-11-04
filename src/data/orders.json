@@ -1,0 +1,93 @@
+[
+  {
+    "id": 10428,
+    "tableId": "t12",
+    "opened": "2026-11-02T12:41:00",
+    "paid": false,
+    "payment": "none",
+    "lines": [
+      {
+        "id": "a1",
+        "menuId": "chicken",
+        "name": "Roast chicken bowl",
+        "price": 18,
+        "quantity": 2,
+        "status": "pending",
+        "batch": 0,
+        "unavailable": true
+      },
+      {
+        "id": "a2",
+        "menuId": "lemon",
+        "name": "Lemon soda",
+        "price": 6,
+        "quantity": 1,
+        "status": "pending",
+        "batch": 0
+      }
+    ]
+  },
+  {
+    "id": 10429,
+    "tableId": "t04",
+    "opened": "2026-11-02T12:46:00",
+    "paid": false,
+    "payment": "none",
+    "lines": [
+      {
+        "id": "b1",
+        "menuId": "grain",
+        "name": "Garden grain bowl",
+        "price": 16,
+        "quantity": 2,
+        "status": "pending",
+        "batch": 0
+      }
+    ]
+  },
+  {
+    "id": 10430,
+    "tableId": "t07",
+    "opened": "2026-11-02T12:48:00",
+    "paid": false,
+    "payment": "none",
+    "lines": [
+      {
+        "id": "c1",
+        "menuId": "chicken",
+        "name": "Roast chicken bowl",
+        "price": 18,
+        "quantity": 1,
+        "status": "pending",
+        "batch": 0
+      },
+      {
+        "id": "c2",
+        "menuId": "greens",
+        "name": "Seasonal greens",
+        "price": 8,
+        "quantity": 1,
+        "status": "pending",
+        "batch": 0
+      }
+    ]
+  },
+  {
+    "id": 10427,
+    "tableId": "t09",
+    "opened": "2026-11-02T12:32:00",
+    "paid": false,
+    "payment": "staff",
+    "lines": [
+      {
+        "id": "d1",
+        "menuId": "chicken",
+        "name": "Roast chicken bowl",
+        "price": 18,
+        "quantity": 3,
+        "status": "accepted",
+        "batch": 0
+      }
+    ]
+  }
+]
